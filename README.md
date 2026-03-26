@@ -173,3 +173,46 @@ Demonstrates NLTK usage, keyword matching, and category mapping
 Expandable to dataset-based or UI-based versions
 
 Perfect for a mini project submission in internship or academic settings
+
+# AI-Powered Resume Ranker
+
+## Objective
+
+This project ranks resumes based on their relevance to a job description using NLP techniques.
+
+## Technologies Used
+
+* Python
+* SpaCy
+* Scikit-learn
+* Pandas
+
+## Features
+
+* Extract text from PDF resumes
+* Preprocess text using NLP
+* Convert text into numerical vectors using TF-IDF
+* Calculate similarity between resumes and job description
+* Rank resumes based on relevance score
+* Generate downloadable HR report (CSV)
+
+## How It Works
+
+1. Upload resumes
+2. Provide job description
+3. System preprocesses text
+4. TF-IDF vectorization is applied
+5. Cosine similarity is calculated
+6. Keyword boosting improves ranking
+7. Final ranked list is generated
+
+## Output
+
+* Ranked resumes with scores
+* CSV report for HR use
+
+## Future Improvements
+
+* Better NLP models (BERT)
+* Resume parsing improvements
+* Web interface deployment
